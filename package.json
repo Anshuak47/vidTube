@@ -1,0 +1,31 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "Anshu Kushwaha",
+  "license": "ISC",
+  "description": "App inspired by Youtube",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "global": "^4.4.0",
+    "mongoose": "^8.16.4",
+    "touch": "^3.1.1"
+  }
+}
