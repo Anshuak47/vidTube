@@ -15,7 +15,10 @@ app.use(express.static("public"));
 
 //Import  Routes
 import router from "./routes/healthcheck.routes.js";
-
+import userRouter from "./routes/user.routes.js";
 // routes
+
 app.use("/api/v1/healthcheck", router);
+app.use("/api/v1/users", userRouter);
+
 export { app };
